@@ -1,120 +1,145 @@
-body {
-    background-color: #f1f1f1;
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+body{
     font-family: "Roboto Mono", monospace;
 }
-html{
-    scroll-behavior:smooth;
-}
-* {
-    margin: 0;
-    padding: 0;
-}
 
-.nav {
-    background-color: #FF6600;
+.nav{
+    background-color: #ff6600;
     display: flex;
+    padding: 5px;
 }
 
-.logo {
+.foto{
     width: 20%;
-    padding: 2% 0 2% 0;
+    height: 20%;
+    padding: 2% 0;
     margin-left: 8%;
 }
 
-.link {
+.link{
     display: flex;
-    margin-top: 13%;
+    margin-top: 18%;
+    font-size: 18px;
 }
 
-    .link a {
-        text-decoration: none;
-        color: rgb(43, 43, 43);
-        font-weight: 500;
-        transition: all 0.3s;
-        border-radius: 6px;
-        padding: 20px;
-    }
+.link a{
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+    font-weight: 500;
+    padding: 15px;
+    transition: 0.2s;
+    border-radius: 6px;
+}
 
-    .link a:hover {
-        font-weight: 700;
-        font-size: 20px;
-        background-color: #db5800;
+.link a:hover{
+    font-weight: 700;
+    font-size: 20px;
+    color:black;
+    background-color: #e25a00;
+}
 
-    }
-
-/*INTRODUÇÃO*/
-.introducao {
-    background-color: #f1f1f1;
-    color: #000000;
+ .introducao{
+    background-color: #e7e7e7;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
     display: flex;
-    
-}
-    .introducao h1{
-        font-size: 40px;
-        margin-top: 40px;
-    }
-    .introducao img{
-        border-radius: 20px;
-        width: 30%;
-        height: 30%;
-        margin-right: 40px;
-    }
-    .paragrafo {
-        text-align: justify;
-        font-size: 16px;
-        margin: 20px 40px 10px 40px;
-        color: rgb(0, 0, 0);
-    }
-    .desenvolvendo-potencial{
-        font-size: 25px;
-    }
-    
-/*PROJETOS*/
-.titulo{
+ }
+
+ .introducao img{
+    width: 30%;
+    border-radius: 20px;
+    margin-right: 40px;
+ }
+
+ .titulo {
+    font-size: 30px;
+    margin-top: 40px;
+ }
+
+ .introducao p {
+    text-align: justify;
+    font-size: 22px;
+    margin: 20px 40px;
+ }
+
+ .titulo{
     text-align: center;
     font-size: 40px;
-}
-.projetos{
-    background-color: #dad8d8;
-}
-.lista-de-projetos{
-    list-style: none;
+ }
+
+ .projetos{
+    background-color: #e7e7e7;
+ }
+
+ .lista-de-projetos{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-.lista-de-projetos a {
+    list-style: none;
+ }
+
+ .lista-de-projetos a{
     text-decoration: none;
     color: black;
-}
-    .projeto{
-        background-color: #fffefe;
-        margin: 10px;
-        width: 280px;
-        height: 450px;
-        border-radius: 5px;
-        margin-top: 30px;
-        border: solid #acacac 1px;
-        transition: all 0.2s;
-    }
+ }
 
-    .projeto:hover{
-        background-color: #292929;
-        transform: scale(1.05);
+ .projeto{
+    background-color: #f1f1f1;
+    margin: 10px;
+    width: 280px;
+    height: 450px;
+    border-radius: 5px;
+    margin-top: 30px;
+    border: solid #acacac 1px;
+    transition: 0.2s;
 
-    }
-    .projeto img {
-        width: 280px;
-        height: 280px;
-    }
-    .projeto h1{
-        padding: 10px 0px 20px 20px;
-        font-size: 25px;
+    
+ }
 
-    }
-    .projeto .texto-do-projeto{
-        margin: 10px;
-    }
+ .projeto:hover{
+    background-color: #292929;
+    color: white;
+    transform: scale(1.05);
+
+ }
+
+ .projeto img{
+    width: 280px;
+    height: 280px;
+ }
+ 
+ .projeto h1{
+    padding: 10px 0px 20px 20px;
+    font-size: 25px;
+ }
+
+ .texto-de-projeto{
+    margin: 10px ;
+ }
+
+ .ler-mais{
+    display: none;
+   flex-wrap: wrap;
+ }
+
+ .class{
+    text-align: center;
+ }
+
+
+ .btn-lermais{
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 5px;
+    text-transform: uppercase;
+    transition: 0.3s;
+ }
+
+ .btn-lermais:hover{
+    background-color: #acacac;
+ }
