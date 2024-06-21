@@ -52,18 +52,23 @@ body{
 
  .introducao img{
     width: 30%;
+    height: 30%;
     border-radius: 20px;
     margin-right: 40px;
+    margin-top: 5%;
  }
 
- .titulo {
-    font-size: 30px;
+ .titulo-introducao h1 {
+    font-size: 40px;
     margin-top: 40px;
  }
+ .titulo-introducao h3 {
+   font-size: 25px;
+}
 
  .introducao p {
     text-align: justify;
-    font-size: 22px;
+    font-size: 19px;
     margin: 20px 40px;
  }
 
@@ -97,8 +102,6 @@ body{
     margin-top: 30px;
     border: solid #acacac 1px;
     transition: 0.2s;
-
-    
  }
 
  .projeto:hover{
@@ -118,13 +121,15 @@ body{
     font-size: 25px;
  }
 
- .texto-de-projeto{
-    margin: 10px ;
+ .texto_projeto {
+    margin: 10px;
+    padding-left: 10px;
  }
 
  .ler-mais{
     display: none;
    flex-wrap: wrap;
+   justify-content: center;
  }
 
  .class{
