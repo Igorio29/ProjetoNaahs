@@ -1,150 +1,160 @@
-*{
-    margin: 0px;
-    padding: 0%;
+* {
+   margin: 0px;
+   padding: 0%;
 }
 
-body{
-    font-family: "Roboto Mono", monospace;
+body {
+   font-family: "Roboto Mono", monospace;
+}
+html{
+   scroll-behavior: smooth;
 }
 
-.nav{
-    background-color: #ff6600;
-    display: flex;
-    padding: 5px;
+.nav {
+   background-color: #ff6600;
+   display: flex;
+   padding: 10px 0px 25px 7%;
+   height: 100px;
 }
 
-.foto{
-    width: 20%;
-    height: 20%;
-    padding: 2% 0;
-    margin-left: 8%;
+.foto {
+   width: 250px;
+   height: 125px;
 }
 
-.link{
-    display: flex;
-    margin-top: 18%;
-    font-size: 18px;
+.link {
+   display: flex;
+   margin-top: 8%;
+   font-size: 18px;
 }
 
-.link a{
-    text-decoration: none;
-    color: rgb(56, 56, 56);
-    font-weight: 500;
-    padding: 15px;
-    transition: 0.2s;
-    border-radius: 6px;
+.link a {
+   text-decoration: none;
+   color: rgb(56, 56, 56);
+   font-weight: 500;
+   padding: 25px 10px 20px 10px;
+   transition: 0.2s;
+   border-radius: 6px;
 }
 
-.link a:hover{
-    font-weight: 700;
-    font-size: 20px;
-    color:black;
-    background-color: #e25a00;
+.link a:hover {
+   font-weight: 700;
+   font-size: 20px;
+   color: black;
+   background-color: #e25a00;
+}
+.linha-nav-intro{
+   border: none;
+   height: 2px;
+   background: linear-gradient(to right, #ff6600, #acacac 50%, #ff6600);
 }
 
- .introducao{
-    background-color: #e7e7e7;
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    display: flex;
- }
+.introducao {
+   background-color: rgb(221, 221, 221);
+   text-align: center;
+   padding-top: 5%;
+   padding-bottom: 5%;
+   display: flex;
+}
 
- .introducao img{
-    width: 30%;
-    height: 30%;
-    border-radius: 20px;
-    margin-right: 40px;
-    margin-top: 5%;
- }
+.introducao img {
+   width: 30%;
+   height: 30%;
+   border-radius: 20px;
+   margin-right: 40px;
+   margin-top: 5%;
+}
 
- .titulo-introducao h1 {
-    font-size: 40px;
-    margin-top: 40px;
- }
- .titulo-introducao h3 {
+.titulo-introducao h1 {
+   font-size: 40px;
+   margin-top: 40px;
+}
+
+.titulo-introducao h3 {
    font-size: 25px;
 }
 
- .introducao p {
-    text-align: justify;
-    font-size: 19px;
-    margin: 20px 40px;
- }
+.introducao p {
+   text-align: justify;
+   font-size: 19px;
+   margin: 20px 40px;
+}
 
- .titulo{
-    text-align: center;
-    font-size: 40px;
- }
+.titulo {
+   text-align: center;
+   font-size: 40px;
+}
 
- .projetos{
-    background-color: #e7e7e7;
- }
+   .projetos {
+      background-color: #e7e7e7;
+   }
 
- .lista-de-projetos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
- }
+   .lista-de-projetos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+   }
 
- .lista-de-projetos a{
-    text-decoration: none;
-    color: black;
- }
+   .lista-de-projetos a {
+      text-decoration: none;
+      color: black;
+   }
 
- .projeto{
-    background-color: #f1f1f1;
-    margin: 10px;
-    width: 280px;
-    height: 450px;
-    border-radius: 5px;
-    margin-top: 30px;
-    border: solid #acacac 1px;
-    transition: 0.2s;
- }
+.projeto {
+   background-color: #f1f1f1;
+   margin: 10px;
+   width: 280px;
+   height: 450px;
+   border-radius: 5px;
+   margin-top: 30px;
+   border: solid #acacac 1px;
+   transition: 0.2s;
+   }
 
- .projeto:hover{
-    background-color: #292929;
-    color: white;
-    transform: scale(1.05);
+   .projeto:hover {
+      background-color: #292929;
+      color: white;
+      transform: scale(1.05);
 
- }
+   }
 
- .projeto img{
-    width: 280px;
-    height: 280px;
- }
- 
- .projeto h1{
-    padding: 10px 0px 20px 20px;
-    font-size: 25px;
- }
+   .projeto img {
+      width: 280px;
+      height: 280px;
+   }
 
- .texto_projeto {
-    margin: 10px;
-    padding-left: 10px;
- }
+   .projeto h1 {
+      padding: 10px 0px 20px 20px;
+      font-size: 25px;
+   }
 
- .ler-mais{
-    display: none;
-   flex-wrap: wrap;
-   justify-content: center;
- }
+   .texto_projeto {
+      margin: 10px;
+      padding-left: 10px;
+   }
 
- .class{
-    text-align: center;
- }
+      .ler-mais {
+         display: none;
+         flex-wrap: wrap;
+         justify-content: center;
+      }
+
+      .class {
+         text-align: center;
+      }
 
 
- .btn-lermais{
-    border-radius: 5px;
-    font-size: 30px;
-    padding: 5px;
-    text-transform: uppercase;
-    transition: 0.3s;
- }
+      .btn-lermais {
+         border: none;
+         border-radius: 5px;
+         font-size: 30px;
+         padding: 5px;
+         text-transform: uppercase;
+         transition: 0.3s;
+         margin-bottom: 20px;
+      }
 
- .btn-lermais:hover{
-    background-color: #acacac;
- }
+      .btn-lermais:hover {
+         background-color: #ff6600;
+      }
